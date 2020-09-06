@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*global csss*/
+h1,h2,h3,h4,h5,h6{
+font-family: 'Quicksand', sans-serif;
+}
+a,span,p,input{
+font-family: 'Roboto', sans-serif;
+}
+/*header part*/
+*{
+margin: 0px;
+padding: 0px;
+}
+.header{
+width: 100%;
+background: white;
+padding: 15px;
+}
+.header img{
+vertical-align: middle;
+}
+.header span{
+font-size: 20px;
+font-weight: 600;
+margin-left: 5px;
+vertical-align: middle;
+}
+.banner{
+width: 100%;
+display: flow-root;
+}
+.container{
+width: 1140px;
+margin: 0 auto;
+}
+.row{
+width: 100%;
+float: left;
+margin: 0 15px;
+
+}
+.col-6{
+width: 50%;
+float: left;
+}
+.col-1{
+width: 15%;
+float: left;
+}
+.col-11{
+width: 85%;
+float: left;
+}
+/*.banner .left{
+margin: 34px;
+}*/
+.banner .left h1{
+font-size: 45px;
+margin-bottom: 16px;
+}
+.banner .left p{
+line-height: 25px;
+color: #4c527d;
+/*margin-bottom: 20px;
+
+margin-top: 20px*/
+}
+.banner button{
+padding: 20px 40px;
+border-radius: 28px;
+outline: none;
+font-size: 17px;
+border: 3px solid #ed6524;
+margin: 20px 15px 20px 0px;
+}
+.banner .left-button{
+background: #ed6542;
+font-size: 20px;
+color: white;
+}
+.banner .right-button{
+background: white;
+font-size: 20px;
+color:#ed6542;
+}
+.testomonial{
+width: 100%;
+margin: 20px 0px;
+}
+.message{
+height: 140px;
+width: 100%;
+background:#f6f4fc;
+border-left: 4px solid #ed6524;
+position: relative;
+}
+.message p{
+padding: 15px;
+font-size: 20px;
+font-style: italic;
+}
+.corner-box{
+height: 40px;
+width: 40px;
+background: #f6f4fc;
+position: absolute;
+bottom: -20px;
+left: 30px;
+transform: rotate(45deg);
+}
+.user{
+width: 100%;
+height: 90px;
+margin-top: 34px;
+}
+.user img{
+height: 80px;
+}
+.user-info{
+padding:18px 15px !important;
+}
+}
+.user-info p{
+margin: 0 !important;
+padding: 0 !important;
+line-height: 20px !important;
+font-weight: 400px !important;
+margin: 15px 0px !important;
+font-size: 20px !important;
+}
+.banner.left{
+margin-left: 60px;
+}
+.banner-right{
+margin-top: -20px;
+position: relative;
+}
+.see-all{
+width: 88%;
+text-align: center;
+margin-top: -25px;
+}
+.see-all a:hover{
+color: #ed6524;
+}
+.banner .circle{
+height: 160px;
+width: 160px;
+background: #ed6524;
+border-radius: 50%;
+text-align: center;
+color: white;
+font-size:18px;
+position: absolute;
+right: 46px;
+top: -49px;
+}
+.banner .circle h3{
+padding-top: 43px;
+}
+/*part one css ends here*/
+/*Service section css starts here*/
+.service{
+width: 100%;
+display: flow-root;
+background-color: linear-background(to bottom,#f6f8fc 0%,#fff 70%);
+
+}
+.service-title{
+margin: 30px 0px;
+text-align: center;
+}
+.col{
+width: 33.33%;
+float: left;
+}
+.service-title h1{
+font-size: 42px;
+padding: 10px;
+}
+.service-title p{
+font-size: 22px;
+line-height: 30px;
+color: #4c527d;
+}
+.service-body{
+width: 100%;
+float: left;
+}
+.item{
+text-align: center;
+padding: 30px;
+}
+.item h3{
+margin: 15px 0px;
+line-height: 22px;
+}
+.item p{
+color: #4c527d;
+}
+/*Service section css ends here*/
+/*Icon section css starts here*/
+.item-section{
+width: 100%;
+display: flow-root;
+padding: 100px, 0;
+}
+.item-title h1{
+text-align: center;
+font-size: 42px;
+}
+.item-body{
+width: 100%;
+float: left;
+}
+.col-5{
+width: 50%;
+float: left;
+/*margin: 60px 0;*/
+}
+.item-img{
+padding: 20%;
+text-align: right;
+}
+.item-text{
+padding: 20px;
+margin-top: 80px;
+}
+.item-text ul li {
+list-style: none;
+margin-top: 20px;
+}
+.item-text ul li i {
+color: #7FCDB8;
+margin-right: 5px;
+}
+.item-text button{
+padding: 20px 40px;
+border-radius: 28px;
+outline: none;
+font-size: 17px;
+border: 3px solid #ed6524;
+margin: 20px 15px 20px 0px;
+background: #ed6542;
+color: white;
+cursor: pointer;
+}
+/*Icon section css end here*/
+/*subscribe section css starts here*/
+.subscribe{
+width: 100%;
+padding: 20px, 0px;
+display:flow-root;
+}
+.subscribe-box{
+width: 50%;
+background:#f6f4fc;
+margin-left: 200px;
+padding: 70px 90px;
+text-align: center;
+border-radius: 5px;
+transition:all 0.5s ease-in-out;
+}
+.subscribe-box:hover{
+box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4);
+transition:all 0.5s ease-in-out;
+}
+.subscribe-box p{
+color: #4c527d;
+margin: 20px 0px;
+}
+.email-input{
+width: 40%;
+padding: 10px;
+border: none;
+}
+.email-input:focus{
+outline-color: #ed6542;
+}
+.send-button{
+padding: 12px;
+font-weight: bold;
+color: white;
+background-color: #ed6542;
+border: none;
+border-radius: 5px;
+}
+/*subscribe section css ends here*/
+/*Book-review section css starts here*/
+.book-review{
+width: 100%;
+display:flow-root;
+
+}
+.book-title{
+margin: 67px 0px;
+text-align: center;
+}
+.book-title p{
+color:#4c527d;
+font-size: 20px;
+}
+.reviews-01{
+width: 100%;
+float: left;
+}
+.review-box{
+padding: 15px;
+background-color: #f6f4fc;
+position: relative;
+margin: 0 15px;
+}
+.review-text{
+margin: 10px;
+}
+.pic{
+width: 18%;
+float: left;
+}
+.name{
+width: 82%;
+float: left;
+}
+.people{
+width: 100%;
+height: 90px;
+margin-top: 34px;
+}
+.people img{
+height: 54px;
+}
+.people-info{
+padding: 7px 0px !important;
+}
+.people-info p{
+margin: 0 !important;
+padding: 0 !important;
+line-height: 20px !important;
+font-weight: 400px !important;
+}
+.testomonial-icon{
+height: 60px;
+width: 60px;
+background-color: tomato;
+border-radius: 50%;
+position: absolute;
+left: 143px;
+top: -40px;
+line-height:60px;
+color: white;
+text-align: center;
+}
+.review-02{
+width: 70%;
+float: left;
+margin: 50px 143px;
+}
+.space{
+/*margin: 0 120px;*/
+}
+.get-button{
+text-align: center;
+}
+.get-button button{
+padding: 20px 40px!important;
+border-radius: 28px!important;
+outline: none;
+font-size: 17px;
+border: 3px solid #ed6524;
+background-color: #ed6524;
+color: white;
+font-weight: 700;
+/*margin: 20px 15px 20px 0px; */
+}
+/*Book-review  section css ends here*/
+/*User section/last part*/
+.user-section{
+padding: 50px 0;
+background-color:#ed6524;
+display:flow-root;
+margin-top: 50px;
+}
+.user-information{
+color: white;
+margin-top: 30px;
+}
+.user-information img{
+height: 122px;
+}
+.user-information p{
+margin: 20px 130px;
+font-size: 20px;
+}
+.user-section h1{
+color: white;
+font-size: 42px;
+}
+.user-section p{
+color: white;
+}
+.opinion p{
+text-align: left;
+}
+.opinion a{
+color: white;
+}
+.opinion a:hover{
+color: black;
+}
+/*social media icon part code starts here */
+.banner-media h4{
+font-size: 20px;
+text-align: center;
+color: white;
+padding-top: 10px;
+}
+.banner-media{
+	display: flow-root;
+}
+.social-media {
+	text-align: center;
+    display: -webkit-box;
+    margin: 16px 480px;
+}
+.social-media ul li {
+list-style: none;
+
+}
+.social-media ul li a i {
+font-size: 16px;
+height: 40px;
+width: 40px;
+background-image: linear-gradient( to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) );
+border-radius: 100%;
+text-align: center;
+line-height: 40px;
+color: white;
+margin: 0 2px;
+transition: 1s;
+display: inline-block;
+}
+.developer-title{
+	width: 100%;
+	padding: 40px 0;
+	text-align: center;
+}
+.developer-title h1{
+	margin: 10px 0;
+}
+.developer-title p{
+	margin: 10px 0;
+    padding: 0 150px;
+}
+.developer-1{
+	text-align: center;
+	    margin-bottom: 40px;
+}
+.developer-1 p{
+	margin:  15px 0;
+}
+.developer-1 h3 {
+	font-size: 25px;
+}
+.developer-1 i{
+	color: #7FCDB8;
+    margin-right: 15px;
+}
+/*	<!-- social media icon part code ends here -->*/
